@@ -10,8 +10,8 @@
   margin: -38px 0px 0px 190px;
 }
 .container-fluid .image-chat-container .left-image img {
-  width: 580px;
-  height: 980px;
+  width: 550px;
+  height: 900px;
 }
 .container-fluid .image-chat-container .left-image {
   position: relative;
@@ -89,7 +89,7 @@
   position: relative;
   background-color: #020b19;
   width: 320px;
-  height: 825px;
+  height: 760px;
   border-radius: 14px;
   margin: -30px 0px 0px -55px;
   box-shadow: 18px 30px 12px 12px rgb(0 0 0 / 6%);
@@ -237,16 +237,16 @@
   }
   .container-fluid .image-chat-container .left-image img {
     width: 380px;
-    height: 780px;
+    height: 580px;
   }
 
   .container-fluid .image-chat-container .right-chat-container {
     position: relative;
     background-color: #020b19;
     width: 320px;
-    height: 655px;
+    height: 490px;
     border-radius: 14px;
-    margin: -28px 0px 0px -33px;
+    margin: -22px 0px 0px -33px;
     box-shadow: 18px 30px 12px 12px rgb(0 0 0 / 6%);
     display: flex;
     flex-direction: column;
