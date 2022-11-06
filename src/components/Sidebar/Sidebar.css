@@ -1,0 +1,17 @@
+.sidebar-content-container {
+  width: 300px;
+  background-color: #020b19;
+  height: 100.5vh;
+}
+.sidebar-list-item {
+  margin: 30px 0px 0px 0px;
+}
+.sidebar-list-item .sidebar-list-item-link {
+  border-radius: 0px;
+}
+.sidebar-list-item .sidebar-list-item-link .sidebar-list-item-icon {
+  margin: 0px 0px 0px 20px;
+}
+.sidebar-list-item .sidebar-list-item-link .sidebar-list-item-text {
+  margin: 0px 0px 0px 35px;
+}

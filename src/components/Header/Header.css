@@ -1,0 +1,37 @@
+.header-header-container {
+  background-color: #020b19;
+}
+.header-header-container .content {
+  margin: -22px 0px 0px 0px;
+  height: 70px;
+}
+
+.header-logo-container {
+  margin: 0px 0px 0px 80px;
+}
+.header-logo-container .header-left-button-container {
+  margin: 8px 0px 0px 250px;
+}
+
+.text-end {
+  display: flex;
+  align-items: center;
+}
+.text-end .dark_light {
+  width: 300px;
+}
+.text-end svg {
+  width: 50px;
+  margin: 0px 22px 0px 0px;
+}
+
+.text-end .profile-image {
+  margin: 5px 0px 0px 0px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  outline: auto;
+}

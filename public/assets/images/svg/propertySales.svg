@@ -1,0 +1,64 @@
+<svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        height="33"
+                        viewBox="0 0 20 23"
+                        fill="none"
+                      >
+                        <path
+                          d="M1 22V6.92703L10 1L19 6.92703V22"
+                          stroke="#2F4CDD"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M4 22V21"
+                          stroke="#2F4CDD"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M7 22V20"
+                          stroke="#2F4CDD"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M10 22V18"
+                          stroke="#2F4CDD"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M16 22V16"
+                          stroke="#2F4CDD"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M13 22V15"
+                          stroke="#2F4CDD"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M3.5 18.5L7.5 17L10 13L16 8.5"
+                          stroke="#2F4CDD"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M12 8H16V12"
+                          stroke="#2F4CDD"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
