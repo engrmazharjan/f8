@@ -1,5 +1,5 @@
 import "./Sidebar.css";
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { UserRoutes } from "../../routing/UserRoutes";
 import GooglePlay from "../../assets/images/google_play.png";
@@ -7,6 +7,7 @@ import AppStore from "../../assets/images/app_store.png";
 
 const Sidebar = () => {
   const path = useLocation().pathname;
+  const [NavigateSidebar, setNavigateSidebar] = useState(false);
 
   return (
     <Fragment>

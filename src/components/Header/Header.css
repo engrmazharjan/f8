@@ -1,5 +1,9 @@
 .header-header-container {
   background-color: #020b19;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
 }
 .header-header-container .content {
   margin: -22px 0px 0px 0px;
@@ -21,17 +25,63 @@
   width: 300px;
 }
 .text-end svg {
-  width: 50px;
+  width: 45px;
   margin: 0px 22px 0px 0px;
 }
 
 .text-end .profile-image {
   margin: 5px 0px 0px 0px;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   outline: auto;
 }
+
+/* Media Queries Start */
+@media (max-width: 1159px) {
+  .text-end .dark_light {
+    width: 250px;
+  }
+  .text-end svg {
+    width: 35px;
+    margin: 0px 14px 0px 0px;
+  }
+  .text-end .profile-image {
+    margin: 0px 0px 0px 0px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: auto;
+  }
+}
+@media (max-width: 1063px) {
+  .header-logo-container .header-left-button-container {
+    margin: 8px 0px 0px 120px;
+  }
+  .header-logo-container .header-left-logo-container {
+    margin: 8px 0px 0px 70px;
+  }
+  .header-logo-container {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-logo-container {
+    margin: 0px 0px 0px -400px;
+  }
+  .header-logo-container .header-left-logo-container {
+    margin: 8px 0px 0px 400px;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+/* Media Queries End */

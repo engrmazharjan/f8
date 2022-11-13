@@ -1,0 +1,261 @@
+body {
+  background-color: #09192e;
+}
+
+.trading-groups-content-body {
+  margin: 80px 0px 0px 300px;
+  overflow-x: auto;
+}
+
+/* Top Header Style Start */
+/* Right Start */
+.trading-groups-top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 30px 0px 30px;
+}
+.trading-groups-top-header .trading-groups-top-header-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trading-groups-top-header .trading-groups-top-header-left h1 {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "poppins";
+  font-weight: bold;
+  margin: 0px;
+}
+.trading-groups-top-header .trading-groups-top-header-left button {
+  background-color: #0076ff;
+  color: #ffffff;
+  border: none;
+  font-size: 22px;
+  font-family: "poppins";
+  border-radius: 10px;
+  padding: 6px 20px 6px 20px;
+  margin: 0px 0px 0px 26px;
+}
+.trading-groups-top-header .trading-groups-top-header-left button svg {
+  margin: 0px 18px 0px 0px;
+}
+.trading-groups-top-header .trading-groups-top-header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trading-groups-top-header .trading-groups-top-header-right .three-line {
+  margin: 0px 24px 0px 0px;
+}
+/* Left End */
+
+/* Right Start */
+.button-group-container {
+  width: 464px;
+  height: 50px;
+  background-color: #020b19;
+  margin: 0px 0px 0px 220px;
+}
+.button-group-container .forex-active-button {
+  background-color: #0076ff;
+  color: #ffffff;
+  border-radius: 10px !important;
+  font-size: 13px;
+  font-family: "Arial";
+}
+
+.button-group-container .forex-button {
+  background-color: #020b19;
+  color: #707070;
+  font-size: 13px;
+  font-family: "Arial";
+}
+
+.button-group-container .crypto-active-button {
+  background-color: #0076ff;
+  color: #ffffff;
+  border-radius: 10px !important;
+  font-size: 13px;
+  font-family: "Arial";
+}
+
+.button-group-container .crypto-button {
+  background-color: #020b19;
+  color: #707070;
+  font-size: 13px;
+  font-family: "Arial";
+}
+
+.button-group-container .binary-active-button {
+  background-color: #0076ff;
+  color: #ffffff;
+  border-radius: 10px !important;
+  font-size: 13px;
+  font-family: "Arial";
+}
+
+.button-group-container .binary-button {
+  background-color: #020b19;
+  color: #707070;
+  font-size: 13px;
+  font-family: "Arial";
+}
+.trading-groups-top-header-right .trading-group-input-container {
+  position: relative;
+}
+.trading-groups-top-header-right .trading-group-input-container span {
+  position: absolute;
+  top: -24px;
+  right: -38px;
+}
+.trading-groups-top-header-right .trading-group-input-container:hover {
+  cursor: pointer;
+}
+.trading-groups-top-header-right
+  .trading-group-input-container
+  .click-to-show-svg {
+  position: absolute;
+  top: -36px;
+  right: -21px;
+}
+.trading-groups-top-header-right
+  .trading-group-input-container
+  .click-to-show-svg:hover {
+  cursor: pointer;
+}
+.trading-groups-top-header-right .trading-group-input-container input {
+  background-color: #020b19;
+  color: #ffffff;
+  border: none;
+  border-radius: 24px;
+  width: 250px;
+  height: 50px;
+}
+/* Right End */
+
+/* Main Content Start */
+.trading-groups-container-fluid .row {
+  margin: 0px 0px 0px 0px;
+}
+
+.trading-groups-container-fluid .row .trading-groups-component-container {
+  background-color: #010a18;
+  width: 260px;
+  height: 329px;
+  border-radius: 20px;
+  margin: 35px 0px 0px 50px;
+}
+
+.trading-groups-container-fluid
+  .row
+  .trading-groups-component-container
+  .trading-groups-component-content {
+  padding: 8px 0px 0px 0px;
+}
+
+.trading-groups-container-fluid
+  .row
+  .trading-groups-component-container
+  .trading-groups-component-content
+  .top-image {
+  width: 239px;
+  height: 186px;
+  border-radius: 16px;
+  margin: 0px 0px 0px -2px;
+}
+
+.trading-groups-container-fluid
+  .row
+  .trading-groups-component-container
+  .trading-groups-component-content
+  .name {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "poppins";
+  margin: 18px 0px 0px 0px;
+}
+
+.trading-groups-container-fluid
+  .row
+  .trading-groups-component-container
+  .trading-groups-component-content
+  span {
+  color: rgba(217, 216, 216, 0.4);
+  font-size: 12px;
+  font-family: "poppins";
+}
+
+.trading-groups-container-fluid
+  .row
+  .trading-groups-component-container
+  .trading-groups-component-content
+  .cost-button-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 24px 0px 0px 0px;
+}
+
+.trading-groups-container-fluid
+  .row
+  .trading-groups-component-container
+  .trading-groups-component-content
+  .cost-button-container
+  p {
+  color: #0076ff;
+  font-family: "poppins";
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.trading-groups-container-fluid
+  .row
+  .trading-groups-component-container
+  .trading-groups-component-content
+  .cost-button-container
+  button {
+  background-color: #3cd561;
+  color: #09192e;
+  font-family: "poppins";
+  padding: 2px 30px 2px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+/* Main Content End */
+
+/* Media Queries Start */
+@media only screen and (max-width: 1669px) {
+  .trading-groups-top-header .trading-groups-top-header-left h1 {
+    font-size: 18px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button {
+    font-size: 18px;
+  }
+  .button-group-container {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1669px) {
+  .trading-groups-top-header .trading-groups-top-header-left h1 {
+    font-size: 14px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 1083px) {
+}
+@media only screen and (max-width: 1063px) {
+}
+
+@media only screen and (max-width: 1017px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+/* Media Queries End */

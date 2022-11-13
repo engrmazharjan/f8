@@ -1,255 +1,208 @@
-.live-stream-content-body {
-  width: 100%;
+body {
   background-color: #09192e;
 }
-
-.container-fluid .image-chat-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin: -38px 0px 0px 190px;
+.live-stream-content-body {
+  margin: 80px 0px 0px 300px;
 }
-.container-fluid .image-chat-container .left-image img {
-  width: 550px;
-  height: 900px;
-}
-.container-fluid .image-chat-container .left-image {
-  position: relative;
-}
-.container-fluid .image-chat-container .left-image .time-views-container {
-  width: 370px;
+/* Top Header Style Start */
+/* Right Start */
+.live-streams-top-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
-  top: 70px;
-  left: 100px;
+  margin: 30px 30px 0px 30px;
 }
-.container-fluid .image-chat-container .left-image .time-views-container .time {
-  color: #f5f7fa !important;
-  font-size: 25px;
+.live-streams-top-header .live-streams-top-header-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.live-streams-top-header .live-streams-top-header-left h1 {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "poppins";
   font-weight: bold;
+  margin: 0px;
 }
-
-.container-fluid
-  .image-chat-container
-  .right-chat-container
-  .top-online-person {
-  position: absolute;
-  top: 0px;
-  display: flex;
-  align-items: center;
-}
-.container-fluid
-  .image-chat-container
-  .right-chat-container
-  .top-online-person
-  span {
-  display: flex;
-  align-items: center;
-  margin: 18px 0px 0px 14px;
-}
-
-.container-fluid
-  .image-chat-container
-  .right-chat-container
-  .top-online-person
-  span
-  img {
-  width: 80px;
-}
-.container-fluid
-  .image-chat-container
-  .right-chat-container
-  .top-online-person
-  span
-  p {
-  margin: -36px 0px 0px 22px;
-  color: #3c6da6;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.container-fluid
-  .image-chat-container
-  .right-chat-container
-  .top-online-person
-  p {
-  margin: 0px 0px 0px 50px;
-}
-.container-fluid
-  .image-chat-container
-  .right-chat-container
-  .top-online-person
-  p
-  svg {
-  width: 50px;
-}
-.container-fluid .image-chat-container .right-chat-container {
-  position: relative;
-  background-color: #020b19;
-  width: 320px;
-  height: 760px;
-  border-radius: 14px;
-  margin: -30px 0px 0px -55px;
-  box-shadow: 18px 30px 12px 12px rgb(0 0 0 / 6%);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.input-text-container {
-  display: flex;
-  position: relative;
-  width: 300px;
-  margin: 0px 0px 18px 12px;
-}
-.input-text-container input {
-  background-color: #09192e;
-  height: 55px;
+.live-streams-top-header .live-streams-top-header-left button {
+  background-color: #ff4246;
+  color: #ffffff;
   border: none;
-  border-radius: 14px;
+  font-size: 22px;
+  font-family: "poppins";
+  border-radius: 10px;
+  padding: 6px 70px 6px 70px;
+  margin: 0px 0px 0px 26px;
 }
-.input-text-container p {
+.live-streams-top-header .live-streams-top-header-left button svg {
+  margin: 0px 30px 0px -50px;
+}
+.live-streams-top-header .live-streams-top-header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.live-streams-top-header .live-streams-top-header-right .three-line {
+  margin: 0px 24px 0px 0px;
+}
+/* Left End */
+
+/* Right Start */
+.live-streams-top-header-right .input-container {
+  position: relative;
+}
+.live-streams-top-header-right .input-container span {
   position: absolute;
-  top: 3px;
-  left: 248px;
+  top: -24px;
+  right: -38px;
 }
-
-/* Chat Start */
-.chat-container {
-  margin: 0px 0px 0px 16px;
-}
-.chat-container .single-chat {
-  background-color: rgb(56 64 74);
+.live-streams-top-header-right .input-container input {
+  background-color: #020b19;
+  border: none;
+  border-radius: 24px;
   width: 250px;
-  border-top-right-radius: 18px;
-  border-bottom-right-radius: 18px;
-  border-top-left-radius: 18px;
+  height: 50px;
+  color: #ffffff;
 }
-.chat-container .single-chat .person-name {
-  margin: 0px 0px -6px 20px;
-  font-size: 12px;
-}
-.chat-container .single-chat p {
-  color: #7d96b3;
-  margin: 0px 8px 0px 22px;
-  padding: 0px 0px 8px 0px;
-}
-.chat-container .second-single-chat {
-  background-color: rgb(56 64 74);
-  width: 280px;
-  border-top-right-radius: 18px;
-  border-bottom-right-radius: 18px;
-  border-top-left-radius: 18px;
-  margin: 10px 0px 22px 0px;
-}
-.chat-container .second-single-chat .person-name {
-  margin: 0px 0px -6px 20px;
-  font-size: 12px;
-}
-.chat-container .second-single-chat p {
-  color: #7d96b3;
-  margin: 0px 8px 0px 22px;
-  padding: 0px 0px 8px 0px;
-}
-/* Chat End */
-
-@media only screen and (max-width: 1360px) {
-  .container-fluid .image-chat-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 0px 0px 0px 60px;
-  }
-
-  .container-fluid .image-chat-container .left-image .time-views-container {
-    width: 260px;
-    position: absolute;
-    top: 50px;
-    left: 60px;
-  }
-  .container-fluid .image-chat-container .left-image img {
-    width: 380px !important;
-    height: 780px !important;
-  }
-
-  .container-fluid .image-chat-container .right-chat-container {
-    position: relative;
-    background-color: #020b19;
-    width: 320px !important;
-    height: 655px !important;
-    border-radius: 14px;
-    margin: -28px 0px 0px -33px;
-    box-shadow: 18px 30px 12px 12px rgb(0 0 0 / 6%);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-}
+/* Right End */
 
 @media only screen and (max-width: 1200px) {
-  .container-fluid .image-chat-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 0px 0px 0px 60px;
+  .live-streams-top-header .live-streams-top-header-left button {
+    font-size: 20px;
+    padding: 6px 55px 6px 70px;
   }
 
-  .container-fluid .image-chat-container .left-image .time-views-container {
-    width: 260px;
-    position: absolute;
-    top: 50px;
-    left: 60px;
+  .live-streams-top-header .live-streams-top-header-left h1 {
+    font-size: 28px;
   }
-  .container-fluid .image-chat-container .left-image img {
-    width: 380px !important;
-    height: 780px !important;
+}
+@media only screen and (max-width: 1083px) {
+  .live-streams-top-header .live-streams-top-header-left button {
+    font-size: 18px;
+    padding: 6px 55px 6px 70px;
   }
 
-  .container-fluid .image-chat-container .right-chat-container {
-    position: relative;
-    background-color: #020b19;
-    width: 320px !important;
-    height: 655px !important;
-    border-radius: 14px;
-    margin: -28px 0px 0px -33px;
-    box-shadow: 18px 30px 12px 12px rgb(0 0 0 / 6%);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  .live-streams-top-header .live-streams-top-header-left h1 {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 1063px) {
+  .live-streams-top-header .live-streams-top-header-left button {
+    font-size: 16px;
+    padding: 6px 40px 6px 70px;
+  }
+
+  .live-streams-top-header .live-streams-top-header-left h1 {
+    font-size: 22px;
   }
 }
 
-@media only screen and (max-width: 1060px) {
-  .container-fluid .image-chat-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin: -33px 0px 0px 0px;
+@media only screen and (max-width: 1017px) {
+  .live-streams-top-header .live-streams-top-header-left button {
+    font-size: 14px;
+    padding: 6px 30px 6px 70px;
   }
 
-  .container-fluid .image-chat-container .left-image .time-views-container {
-    width: 260px;
-    position: absolute;
-    top: 50px;
-    left: 60px;
+  .live-streams-top-header .live-streams-top-header-left h1 {
+    font-size: 20px;
   }
-  .container-fluid .image-chat-container .left-image img {
-    width: 380px !important;
-    height: 580px !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .live-streams-top-header .live-streams-top-header-left button {
+    font-size: 14px;
+    padding: 6px 30px 6px 70px;
   }
 
-  .container-fluid .image-chat-container .right-chat-container {
-    position: relative;
-    background-color: #020b19;
-    width: 320px !important;
-    height: 490px !important;
-    border-radius: 14px;
-    margin: -22px 0px 0px -33px;
-    box-shadow: 18px 30px 12px 12px rgb(0 0 0 / 6%);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  .live-streams-top-header .live-streams-top-header-left h1 {
+    font-size: 16px;
   }
+}
+
+.live-stream-container-fluid .row {
+  margin: 0px 0px 0px 0px;
+}
+
+.live-stream-container-fluid .row .live-stream-component-container {
+  background-color: #010a18;
+  width: 180px;
+  height: 246px;
+  border-radius: 20px;
+  margin: 30px 0px 0px 36px;
+}
+
+.live-stream-container-fluid
+  .row
+  .live-stream-component-container
+  .live-stream-component-content {
+  padding: 8px 0px 0px 0px;
+}
+
+.live-stream-container-fluid
+  .row
+  .live-stream-component-container
+  .live-stream-component-content
+  .top-image {
+  width: 160px;
+  height: 120px;
+  border-radius: 16px;
+  margin: 0px 0px 0px -2px;
+}
+
+.live-stream-container-fluid
+  .row
+  .live-stream-component-container
+  .live-stream-component-content
+  .name {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "poppins";
+  margin: 18px 0px 0px 0px;
+}
+
+.live-stream-container-fluid
+  .row
+  .live-stream-component-container
+  .live-stream-component-content
+  span {
+  color: rgba(217, 216, 216, 0.4);
+  font-size: 12px;
+  font-family: "poppins";
+}
+
+.live-stream-container-fluid
+  .row
+  .live-stream-component-container
+  .live-stream-component-content
+  .cost-button-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 8px 0px 0px 0px;
+}
+
+.live-stream-container-fluid
+  .row
+  .live-stream-component-container
+  .live-stream-component-content
+  .cost-button-container
+  p {
+  color: #0076ff;
+  font-family: "poppins";
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.live-stream-container-fluid
+  .row
+  .live-stream-component-container
+  .live-stream-component-content
+  .cost-button-container
+  button {
+  background-color: #ff4246;
+  color: #ffffff;
+  font-family: "poppins";
+  padding: 2px 30px 2px 30px;
+  border-radius: 10px;
+  font-size: 18px;
 }

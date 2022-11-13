@@ -18,6 +18,7 @@ import TradingGroupsActiveIcon from "./icons/TradingGroupsActiveIcon";
 
 // LiveStreaming Pages And Icons Start
 import LiveStreaming from "../pages/LiveStreaming/LiveStreaming";
+import LiveStreamingInPerson from "../pages/LiveStreamingInPerson/LiveStreamingInPerson";
 import LiveStreamingIcon from "./icons/LiveStreamingIcon";
 import LiveStreamingActiveIcon from "./icons/LiveStreamingActiveIcon";
 // LiveStreaming Pages And Icons End
@@ -76,12 +77,23 @@ export const UserRoutes = [
   },
 
   {
-    id: "live_streaming",
+    id: "live_streaming_in_person",
     path: "/user/live/streaming",
     title: "Live Streaming",
     layout: "user",
     parent: true,
     component: <LiveStreaming />,
+    icon: <LiveStreamingIcon />,
+    activeIcon: <LiveStreamingActiveIcon />,
+  },
+
+  {
+    id: "live_streaming",
+    path: "/user/live/streaming/in-person",
+    title: "Live Streaming In Person",
+    layout: "user",
+    parent: false,
+    component: <LiveStreamingInPerson />,
     icon: <LiveStreamingIcon />,
     activeIcon: <LiveStreamingActiveIcon />,
   },

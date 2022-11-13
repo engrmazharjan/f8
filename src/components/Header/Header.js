@@ -12,8 +12,8 @@ const Header = () => {
       <header className="p-3 text-white header-header-container">
         {/* <div className="container"> */}
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start content">
-          <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 header-logo-container">
-            <li>
+          <div className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 header-logo-container">
+            <span className="header-left-logo-container">
               <Link
                 href="/user/discover"
                 // className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
@@ -24,8 +24,8 @@ const Header = () => {
                   alt=""
                 />
               </Link>
-            </li>
-            <li className="header-left-button-container">
+            </span>
+            <span className="header-left-button-container">
               <Link to="/user/discover" className="nav-link px-2 text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -62,8 +62,8 @@ const Header = () => {
                   </g>
                 </svg>
               </Link>
-            </li>
-          </ul>
+            </span>
+          </div>
 
           {/* <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
             <input

@@ -1,7 +1,13 @@
 import "./LiveStreaming.css";
 import React, { Fragment } from "react";
-import LiveStreamMainImage from "../../assets/images/live_stream_main_image.png";
-import OnlinePerson from "../../assets/images/online_person.png";
+import { Link } from "react-router-dom";
+import LiveStreamImage1 from "../../assets/images/avatar/1.jpg";
+import LiveStreamImage2 from "../../assets/images/avatar/2.jpg";
+import LiveStreamImage3 from "../../assets/images/avatar/3.jpg";
+import LiveStreamImage4 from "../../assets/images/avatar/4.jpg";
+import LiveStreamImage5 from "../../assets/images/avatar/5.jpg";
+import LiveStreamImage6 from "../../assets/images/avatar/6.jpg";
+import LiveStreamImage7 from "../../assets/images/avatar/7.jpg";
 
 const LiveStreaming = () => {
   return (
@@ -10,162 +16,632 @@ const LiveStreaming = () => {
         id="content-body-height"
         className="content-body live-stream-content-body"
       >
-        <div className="container-fluid">
-          <div className="image-chat-container">
-            <div className="left-image">
-              <span className="time-views-container">
-                <p className="time">00:46</p>
-                <p className="views">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="82"
-                    height="33"
-                    viewBox="0 0 82 33"
-                  >
-                    <g
-                      id="Group_3470"
-                      data-name="Group 3470"
-                      transform="translate(-978 -130)"
-                    >
-                      <path
-                        id="Icon_awesome-eye"
-                        data-name="Icon awesome-eye"
-                        d="M28.943,13.468A16.214,16.214,0,0,0,14.559,4.5,16.217,16.217,0,0,0,.176,13.469a1.635,1.635,0,0,0,0,1.476,16.214,16.214,0,0,0,14.383,8.968,16.217,16.217,0,0,0,14.383-8.969A1.635,1.635,0,0,0,28.943,13.468ZM14.559,21.486a7.28,7.28,0,1,1,7.28-7.28A7.28,7.28,0,0,1,14.559,21.486Zm0-12.133a4.818,4.818,0,0,0-1.28.192A2.419,2.419,0,0,1,9.9,12.927a4.842,4.842,0,1,0,4.662-3.574Z"
-                        transform="translate(978 132.557)"
-                        fill="#f5f7fa"
-                      />
-                      <text
-                        id="_178"
-                        data-name="178"
-                        transform="translate(1016 156)"
-                        fill="#f5f7fa"
-                        font-size="25"
-                        font-family="Roboto-Bold, Roboto"
-                        font-weight="700"
-                      >
-                        <tspan x="0" y="0">
-                          579
-                        </tspan>
-                      </text>
-                    </g>
-                  </svg>
-                </p>
-              </span>
-              <img src={LiveStreamMainImage} alt="" />
-            </div>
-            <div className="right-chat-container">
-              <div className="top-online-person">
+        <div className="container-fluid live-stream-container-fluid">
+          <div className="live-streams-top-header">
+            <span className="live-streams-top-header-left">
+              <h1>Live Streams</h1>
+              <button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19.523"
+                  height="22.312"
+                  viewBox="0 0 19.523 22.312"
+                >
+                  <path
+                    id="Icon_metro-broadcast"
+                    data-name="Icon metro-broadcast"
+                    d="M14.26,6.112a5.578,5.578,0,0,1,4.009,9.457l-.349,2.026a6.973,6.973,0,1,0-7.321,0l-.349-2.026A5.578,5.578,0,0,1,14.26,6.112Zm-1.395,6.973a1.39,1.39,0,0,0-1.395,1.395v2.789a1.4,1.4,0,0,0,1.395,1.395V24.24h2.789V18.662a1.4,1.4,0,0,0,1.395-1.395V14.479a1.39,1.39,0,0,0-1.395-1.395H12.866ZM17.049,10.3a2.789,2.789,0,1,0-2.789,2.789A2.78,2.78,0,0,0,17.049,10.3ZM14.26,1.928a9.742,9.742,0,0,0-3.116,18.978l-.261-1.569a8.367,8.367,0,1,1,6.755,0l-.261,1.569A9.742,9.742,0,0,0,14.26,1.928Z"
+                    transform="translate(-4.499 -1.928)"
+                    fill="#fff"
+                  />
+                </svg>
+                <span>Go Live</span>
+              </button>
+            </span>
+            <span className="live-streams-top-header-right">
+              <svg
+                className="three-line"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24.109"
+                height="21.2"
+                viewBox="0 0 24.109 21.2"
+              >
+                <g
+                  id="Icon_ionic-ios-options"
+                  data-name="Icon ionic-ios-options"
+                  transform="translate(-3.375 -5.625)"
+                >
+                  <path
+                    id="Path_1450"
+                    data-name="Path 1450"
+                    d="M17.939,26.141a2.322,2.322,0,0,1,4.254,0h4.364a.93.93,0,0,1,.927.927h0a.93.93,0,0,1-.927.927H22.193a2.322,2.322,0,0,1-4.254,0H4.3a.93.93,0,0,1-.927-.927h0a.93.93,0,0,1,.927-.927Z"
+                    transform="translate(0 -2.561)"
+                    fill="#707070"
+                  />
+                  <path
+                    id="Path_1451"
+                    data-name="Path 1451"
+                    d="M8.666,16.578a2.322,2.322,0,0,1,4.254,0H26.557a.93.93,0,0,1,.927.927h0a.93.93,0,0,1-.927.927H12.92a2.322,2.322,0,0,1-4.254,0H4.3a.93.93,0,0,1-.927-.927h0a.93.93,0,0,1,.927-.927Z"
+                    transform="translate(0 -1.281)"
+                    fill="#707070"
+                  />
+                  <path
+                    id="Path_1452"
+                    data-name="Path 1452"
+                    d="M17.939,7.016a2.322,2.322,0,0,1,4.254,0h4.364a.93.93,0,0,1,.927.927h0a.93.93,0,0,1-.927.927H22.193a2.322,2.322,0,0,1-4.254,0H4.3a.93.93,0,0,1-.927-.927h0A.93.93,0,0,1,4.3,7.016Z"
+                    fill="#707070"
+                  />
+                </g>
+              </svg>
+              <div className="input-container">
                 <span>
-                  <img src={OnlinePerson} alt="" />
-                  <p>Mazhar Jan.</p>
-                </span>
-                <p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="55"
-                    height="55"
-                    viewBox="0 0 55 55"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                    width="128"
+                    height="128"
+                    viewBox="0 0 128 128"
                   >
-                    <g
-                      id="Group_3472"
-                      data-name="Group 3472"
-                      transform="translate(-1389 -149)"
-                    >
-                      <g id="Search" transform="translate(1389 149)">
-                        <rect
-                          id="Base"
-                          width="55"
-                          height="55"
-                          rx="27.5"
-                          fill="#09192e"
-                        />
-                      </g>
-                      <path
-                        id="Icon_metro-cancel"
-                        data-name="Icon metro-cancel"
-                        d="M18,1.928A15.429,15.429,0,1,0,33.428,17.357,15.429,15.429,0,0,0,18,1.928Zm0,27.964A12.536,12.536,0,1,1,30.535,17.357,12.536,12.536,0,0,1,18,29.892Zm4.821-20.25L18,14.464,13.178,9.642l-2.893,2.893,4.821,4.821-4.821,4.821,2.893,2.893L18,20.249l4.821,4.821,2.893-2.893-4.821-4.821,4.821-4.821Z"
-                        transform="translate(1398.502 159.143)"
-                        fill="#b1b1b1"
-                      />
-                    </g>
-                  </svg>
-                </p>
-              </div>
-
-              <div className="chat-container">
-                <div className="single-chat">
-                  <p className="person-name">Aqib Iqbal</p>
-                  <p>Hey Mazhar, how are you. Is client's project ready???</p>
-                </div>
-                <div className="second-single-chat">
-                  <p className="person-name">Mazhar Jan</p>
-                  <p>
-                    I'm doing well. Yes it's ready I've deployed the build, I'll
-                    share the link with you.
-                  </p>
-                </div>
-              </div>
-              <span className="input-text-container">
-                <input
-                  type="search"
-                  className="form-control form-control-dark"
-                  placeholder="Type message here..."
-                  aria-label="Search"
-                />
-                <p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="47"
-                    height="48"
-                    viewBox="0 0 47 48"
-                  >
-                    <g
-                      id="Send_Button"
-                      data-name="Send Button"
-                      transform="translate(0.498)"
-                      opacity="0.92"
-                    >
-                      <rect
-                        id="Rectangle_18"
-                        data-name="Rectangle 18"
-                        width="47"
-                        height="48"
-                        rx="15"
-                        transform="translate(-0.498)"
-                        fill="#50bb69"
-                      />
-                      <g
-                        id="icon.send"
-                        transform="translate(19.804 12.006) rotate(45)"
+                    <defs>
+                      <filter
+                        id="button1"
+                        x="0"
+                        y="0"
+                        width="128"
+                        height="128"
+                        filterUnits="userSpaceOnUse"
                       >
-                        <line
-                          id="Line_2"
-                          data-name="Line 2"
-                          x1="9.195"
-                          y2="9.195"
-                          transform="translate(9.521)"
-                          fill="none"
-                          stroke="#fff"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="1.5"
-                        />
-                        <path
-                          id="Path_76"
-                          data-name="Path 76"
-                          d="M18.716,0,14.862,18.716,9.521,9.2,0,3.854Z"
-                          transform="translate(0 0)"
-                          fill="none"
-                          stroke="#fff"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="1.5"
-                        />
+                        <feOffset dy="15" input="SourceAlpha" />
+                        <feGaussianBlur stdDeviation="15" result="blur" />
+                        <feFlood flood-color="#1466cc" flood-opacity="0.161" />
+                        <feComposite operator="in" in2="blur" />
+                        <feComposite in="SourceGraphic" />
+                      </filter>
+                    </defs>
+                    <g
+                      id="button3"
+                      transform="translate(41 31)"
+                      // style="isolation: isolate"
+                    >
+                      <g
+                        id="Group_3402"
+                        data-name="Group 3402"
+                        transform="translate(0 -2)"
+                      >
+                        <g
+                          transform="matrix(1, 0, 0, 1, -41, -29)"
+                          filter="url(#button1)"
+                        >
+                          <path
+                            id="button1-2"
+                            data-name="button1"
+                            d="M19,0A19,19,0,1,1,0,19,19,19,0,0,1,19,0Z"
+                            transform="translate(45 30)"
+                            fill="#ff4246"
+                          />
+                        </g>
+                        <g id="ic-actions-search" transform="translate(16 13)">
+                          <rect
+                            id="Rectangle_50"
+                            data-name="Rectangle 50"
+                            width="15"
+                            height="15"
+                            fill="none"
+                          />
+                          <g id="Layer" transform="translate(1.818 1.68)">
+                            <g
+                              id="Vrstva_92"
+                              data-name="Vrstva 92"
+                              transform="translate(0 0)"
+                            >
+                              <path
+                                id="Path_107"
+                                data-name="Path 107"
+                                d="M9.885,2.13A5.036,5.036,0,0,0,6.026,10.4l-2.4,2.4a.632.632,0,1,0,.894.894l2.424-2.443a4.98,4.98,0,0,0,2.934.951,5.036,5.036,0,0,0,0-10.072Zm0,8.813a3.777,3.777,0,1,1,3.777-3.777,3.777,3.777,0,0,1-3.777,3.777Z"
+                                transform="translate(-3.436 -2.13)"
+                                fill="#fff"
+                                fill-rule="evenodd"
+                              />
+                            </g>
+                          </g>
+                        </g>
                       </g>
                     </g>
                   </svg>
-                </p>
-              </span>
+                </span>
+                <input type="text" placeholder="Search Streams" />
+              </div>
+            </span>
+          </div>
+          <div className="row">
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage1} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$5.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage2} alt="" className="top-image" />
+                <h4 className="name">Coffee Mug</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage3} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$7.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage4} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage5} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$8.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage6} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage7} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage1} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$5.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage2} alt="" className="top-image" />
+                <h4 className="name">Coffee Mug</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage3} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$7.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage4} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage5} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$8.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage6} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage7} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage1} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$5.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage2} alt="" className="top-image" />
+                <h4 className="name">Coffee Mug</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage3} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$7.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage4} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage5} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$8.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage6} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage7} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage1} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$5.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage2} alt="" className="top-image" />
+                <h4 className="name">Coffee Mug</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage3} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$7.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage4} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage5} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$8.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage6} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage7} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage1} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$5.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage2} alt="" className="top-image" />
+                <h4 className="name">Coffee Mug</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage3} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$7.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage4} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage5} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>$8.00</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage6} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className="live-stream-component-container">
+              <div className="live-stream-component-content">
+                <img src={LiveStreamImage7} alt="" className="top-image" />
+                <h4 className="name">Coffee</h4>
+                <span>Getting Things Started</span>
+                <span className="cost-button-container">
+                  <p>Free</p>
+                  <Link to="/user/live/streaming/in-person">
+                    <button>View</button>
+                  </Link>
+                </span>
+              </div>
             </div>
           </div>
         </div>

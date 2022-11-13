@@ -2,6 +2,8 @@
   width: 300px;
   background-color: #020b19;
   /* height: 100.5vh; */
+  position: fixed;
+  top: 80px;
 }
 .sidebar-list-item {
   margin: 30px 0px 0px 0px;
