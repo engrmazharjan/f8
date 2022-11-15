@@ -4,6 +4,7 @@
   /* height: 100.5vh; */
   position: fixed;
   top: 80px;
+  z-index: 1;
 }
 .sidebar-list-item {
   margin: 30px 0px 0px 0px;

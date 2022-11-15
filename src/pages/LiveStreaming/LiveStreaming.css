@@ -189,7 +189,7 @@ body {
   p {
   color: #0076ff;
   font-family: "poppins";
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 500;
 }
 
@@ -202,7 +202,7 @@ body {
   background-color: #ff4246;
   color: #ffffff;
   font-family: "poppins";
-  padding: 2px 30px 2px 30px;
+  padding: 2px 22px 2px 22px;
   border-radius: 10px;
   font-size: 18px;
 }
