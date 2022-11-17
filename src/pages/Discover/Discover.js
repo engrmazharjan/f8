@@ -73,67 +73,67 @@ const Discover = () => {
             <div className="stories-content-container">
               <img src={DiscoverImage1} alt="" />
               <img className="small-container" src={DiscoverImage2} alt="" />
-              <span>James Jack</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage2} alt="" />
               <img className="small-container" src={DiscoverImage1} alt="" />
-              <span>John Wich</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage3} alt="" />
               <img className="small-container" src={DiscoverImage4} alt="" />
-              <span>Fernanda Dev</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage4} alt="" />
               <img className="small-container" src={DiscoverImage3} alt="" />
-              <span>Fanny Allen</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage5} alt="" />
               <img className="small-container" src={DiscoverImage6} alt="" />
-              <span>Estefania Zoe</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage6} alt="" />
               <img className="small-container" src={DiscoverImage5} alt="" />
-              <span>Joseph Koh</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage1} alt="" />
               <img className="small-container" src={DiscoverImage2} alt="" />
-              <span>James Ander</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage2} alt="" />
               <img className="small-container" src={DiscoverImage1} alt="" />
-              <span>John Smith</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage3} alt="" />
               <img className="small-container" src={DiscoverImage4} alt="" />
-              <span>Fernanda Nick</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage4} alt="" />
               <img className="small-container" src={DiscoverImage3} alt="" />
-              <span>Fanny Woi</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage5} alt="" />
               <img className="small-container" src={DiscoverImage6} alt="" />
-              <span>Estefania Ter</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage6} alt="" />
               <img className="small-container" src={DiscoverImage5} alt="" />
-              <span>Joseph Kol</span>
+              <span>James</span>
             </div>
             <div className="stories-content-container">
               <img src={DiscoverImage1} alt="" />
               <img className="small-container" src={DiscoverImage2} alt="" />
-              <span>James Ande</span>
+              <span>James</span>
             </div>
             {/* <div className="stories-content-container">
               <img src={DiscoverImage2} alt="" />
@@ -146,7 +146,7 @@ const Discover = () => {
           <div className="discover-section">
             <h1>Discover</h1>
             <div className="row">
-              <div className="col-8 discover-section-left">
+              <div className="discover-section-left">
                 <img
                   className="discover-section-left-left-image"
                   src={Unsplash}
@@ -208,8 +208,7 @@ const Discover = () => {
                   </p>
                 </div>
               </div>
-              <div className="discover-section-middle"></div>
-              <div className="col-3 discover-section-right">
+              <div className="discover-section-right">
                 <img className="top-image" src={Unsplash2} alt="" />
                 <h4>AR</h4>
                 <p>Binary Trader</p>
