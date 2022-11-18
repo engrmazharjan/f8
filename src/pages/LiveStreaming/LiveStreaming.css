@@ -66,59 +66,6 @@ body {
 }
 /* Right End */
 
-@media only screen and (max-width: 1200px) {
-  .live-streams-top-header .live-streams-top-header-left button {
-    font-size: 20px;
-    padding: 6px 55px 6px 70px;
-  }
-
-  .live-streams-top-header .live-streams-top-header-left h1 {
-    font-size: 28px;
-  }
-}
-@media only screen and (max-width: 1083px) {
-  .live-streams-top-header .live-streams-top-header-left button {
-    font-size: 18px;
-    padding: 6px 55px 6px 70px;
-  }
-
-  .live-streams-top-header .live-streams-top-header-left h1 {
-    font-size: 26px;
-  }
-}
-@media only screen and (max-width: 1063px) {
-  .live-streams-top-header .live-streams-top-header-left button {
-    font-size: 16px;
-    padding: 6px 40px 6px 70px;
-  }
-
-  .live-streams-top-header .live-streams-top-header-left h1 {
-    font-size: 22px;
-  }
-}
-
-@media only screen and (max-width: 1017px) {
-  .live-streams-top-header .live-streams-top-header-left button {
-    font-size: 14px;
-    padding: 6px 30px 6px 70px;
-  }
-
-  .live-streams-top-header .live-streams-top-header-left h1 {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .live-streams-top-header .live-streams-top-header-left button {
-    font-size: 14px;
-    padding: 6px 30px 6px 70px;
-  }
-
-  .live-streams-top-header .live-streams-top-header-left h1 {
-    font-size: 16px;
-  }
-}
-
 .live-stream-container-fluid .row {
   margin: 0px 0px 0px 0px;
 }
@@ -206,3 +153,811 @@ body {
   border-radius: 10px;
   font-size: 18px;
 }
+
+/* Media Queries Start */
+@media only screen and (max-width: 1668px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 180px;
+    height: 246px;
+    border-radius: 20px;
+    margin: 30px 0px 0px 8px;
+  }
+}
+
+@media only screen and (max-width: 1656px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 170px;
+    height: 246px;
+    border-radius: 20px;
+    margin: 30px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 150px;
+    height: 120px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -2px;
+  }
+}
+
+@media only screen and (max-width: 1636px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 170px;
+    height: 246px;
+    border-radius: 20px;
+    margin: 30px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 152px;
+    height: 120px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -2px;
+  }
+}
+
+@media only screen and (max-width: 1586px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 160px;
+    height: 246px;
+    border-radius: 20px;
+    margin: 30px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 142px;
+    height: 120px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -2px;
+  }
+}
+
+@media only screen and (max-width: 1516px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 150px;
+    height: 228px;
+    border-radius: 20px;
+    margin: 30px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 134px;
+    height: 120px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -2px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "poppins";
+    margin: 8px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 11px;
+    font-family: "poppins";
+  }
+}
+
+@media only screen and (max-width: 1446px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 145px;
+    height: 220px;
+    border-radius: 20px;
+    margin: 30px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 130px;
+    height: 120px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -4px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    margin: 8px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 10px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 2px 22px 2px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1411px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 136px;
+    height: 220px;
+    border-radius: 20px;
+    margin: 30px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 122px;
+    height: 120px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -4px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    margin: 8px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 10px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 2px 22px 2px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1348px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 130px;
+    height: 212px;
+    border-radius: 20px;
+    margin: 18px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 118px;
+    height: 120px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -5px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "poppins";
+    margin: 6px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 9px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1306px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 120px;
+    height: 196px;
+    border-radius: 20px;
+    margin: 18px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 108px;
+    height: 108px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -5px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "poppins";
+    margin: 6px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 8px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 4px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 1236px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 134px;
+    height: 196px;
+    border-radius: 20px;
+    margin: 18px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 120px;
+    height: 108px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -5px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "poppins";
+    margin: 6px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 9px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 4px 0px 0px 0px;
+  }
+}
+@media only screen and (max-width: 1192px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 155px;
+    height: 206px;
+    border-radius: 20px;
+    margin: 18px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 140px;
+    height: 118px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -5px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    margin: 6px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 11px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 4px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 1155px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 148px;
+    height: 206px;
+    border-radius: 20px;
+    margin: 18px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 135px;
+    height: 118px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -5px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    margin: 6px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 11px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 4px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 175px;
+    height: 212px;
+    border-radius: 20px;
+    margin: 18px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 159px;
+    height: 118px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -5px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    margin: 6px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 11px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 4px 22px 4px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 4px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 1104px) {
+  .live-streams-top-header .live-streams-top-header-left h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: bold;
+    margin: 0px;
+  }
+  .live-streams-top-header .live-streams-top-header-left button {
+    font-size: 20px;
+    padding: 6px 36px 6px 56px;
+  }
+}
+@media only screen and (max-width: 1072px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 165px;
+    height: 212px;
+    border-radius: 20px;
+    margin: 18px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 152px;
+    height: 118px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -5px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    margin: 6px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 11px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 4px 22px 4px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 4px 0px 0px 0px;
+  }
+}
+@media only screen and (max-width: 1032px) {
+  .live-streams-top-header .live-streams-top-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 0px -22px;
+  }
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 155px;
+    height: 212px;
+    border-radius: 20px;
+    margin: 18px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 140px;
+    height: 118px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -5px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    margin: 6px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 11px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 4px 22px 4px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 4px 0px 0px 0px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .live-streams-top-header .live-streams-top-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 0px -22px;
+  }
+  .live-streams-top-header .live-streams-top-header-left h1 {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "poppins";
+    font-weight: bold;
+    margin: 0px;
+  }
+  .live-streams-top-header .live-streams-top-header-left button {
+    font-size: 20px;
+    padding: 6px 16px 6px 51px;
+  }
+  .live-streams-top-header .live-streams-top-header-left button svg {
+    margin: 0px 24px 0px -44px;
+  }
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 150px;
+    height: 212px;
+    border-radius: 20px;
+    margin: 18px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 137px;
+    height: 118px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -5px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    margin: 6px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 11px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 4px 22px 4px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 4px 0px 0px 0px;
+  }
+}
+
+/* Media Queries End */
