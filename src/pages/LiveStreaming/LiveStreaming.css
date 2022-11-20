@@ -368,6 +368,57 @@ body {
   }
 }
 
+@media only screen and (max-width: 1349px) {
+  .live-stream-container-fluid .row .live-stream-component-container {
+    background-color: #010a18;
+    width: 130px;
+    height: 212px;
+    border-radius: 20px;
+    margin: 18px 0px 0px 8px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .top-image {
+    width: 118px;
+    height: 120px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -5px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .name {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "poppins";
+    margin: 6px 0px 0px 0px;
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 8px;
+    font-family: "poppins";
+  }
+  .live-stream-container-fluid
+    .row
+    .live-stream-component-container
+    .live-stream-component-content
+    .cost-button-container
+    button {
+    background-color: #ff4246;
+    color: #ffffff;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+}
 @media only screen and (max-width: 1348px) {
   .live-stream-container-fluid .row .live-stream-component-container {
     background-color: #010a18;

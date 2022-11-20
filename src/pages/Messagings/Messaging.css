@@ -269,6 +269,9 @@
   margin: 5px 65px 5px 660px;
 }
 
+.chat-section-container .my-reply .my-reply-large-top {
+  margin: 5px 65px 5px 850px;
+}
 .chat-section-container .my-reply .my-reply-large {
   margin: 5px 65px 5px 850px;
 }
@@ -277,6 +280,9 @@
   margin: 5px 65px 5px 922px;
 }
 
+.chat-section-container .my-reply .my-reply-small-top {
+  margin: 5px 65px 5px 985px;
+}
 .chat-section-container .my-reply .my-reply-small {
   margin: 5px 65px 5px 985px;
 }
@@ -333,3 +339,403 @@
 }
 /* Right Chat Section End */
 /* Right Section End */
+
+/* Media Queries Start */
+@media only screen and (max-width: 1669px) {
+  .chat-title {
+    width: 300px;
+  }
+  .my-profile-container .details h3 {
+    color: #b7bbbe;
+    font-size: 14px;
+    font-family: "poppins";
+  }
+  .left-list-container .left-list li input {
+    background-color: #030c1a;
+    color: #ffffff;
+    border: none;
+    width: 280px;
+    height: 42px;
+    border-radius: 10px;
+  }
+  .left-list-container .left-list .input-list-item svg {
+    position: absolute;
+    top: 10px;
+    right: 22px;
+  }
+  .left-list-container .left-list .active-list-item {
+    width: 280px;
+    height: 74px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 14px 0px 0px 0px;
+  }
+  .left-list-container .left-list .active-list-item .name-message {
+    margin: 0px 0px 0px 0px;
+  }
+  .left-list-container .left-list .active-list-item svg {
+    margin: 0px 12px 0px 0px;
+  }
+
+  .left-list-container .left-list .typing-list-item {
+    width: 280px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 14px 0px 0px 0px;
+  }
+  .left-list-container .left-list .typing-list-item img {
+    margin: 0px 0px 0px 6px;
+  }
+  .left-list-container .left-list .typing-list-item .name-message {
+    margin: 0px 0px 0px -60px;
+  }
+  .left-list-container .left-list .typing-list-item .time {
+    margin: -22px 8px 0px 0px;
+    color: #7b8793;
+    font-size: 12px;
+  }
+  .chat-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 40vw;
+    overflow-y: scroll;
+  }
+  .chat-section-container .my-reply img {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    outline: auto;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+  }
+  .chat-section-container .my-reply .my-reply-small-top {
+    margin: 5px 58px 5px 805px;
+  }
+  .chat-section-container .my-reply .my-reply-small {
+    margin: 5px 58px 5px 805px;
+  }
+  .chat-section-container .my-reply .my-reply-large-top {
+    margin: 5px 58px 5px 710px;
+  }
+  .chat-section-container .my-reply .my-reply-large {
+    margin: 5px 58px 5px 710px;
+  }
+  .chat-section-container .my-reply span {
+    color: #afbbc6;
+    float: right;
+    margin: 0px 58px 0px 0px;
+    font-size: 10px;
+  }
+
+  .chat-section-container .my-reply .my-reply-medium {
+    margin: 5px 58px 5px 729px;
+  }
+  .chat-section-container .my-reply .my-reply-long {
+    margin: 5px 58px 5px 510px;
+  }
+  .chat-section-container .my-reply .my-reply-large-top {
+    margin: 5px 58px 5px 710px;
+  }
+  .chat-section-container .my-reply .my-reply-large {
+    margin: 5px 58px 5px 710px;
+  }
+  .chat-section-container .input-container input {
+    width: 922px;
+  }
+}
+@media only screen and (max-width: 1668px) {
+  .chat-title {
+    width: 300px;
+  }
+  .my-profile-container .details h3 {
+    color: #b7bbbe;
+    font-size: 14px;
+    font-family: "poppins";
+  }
+  .left-list-container .left-list li input {
+    background-color: #030c1a;
+    color: #ffffff;
+    border: none;
+    width: 280px;
+    height: 42px;
+    border-radius: 10px;
+  }
+  .left-list-container .left-list .input-list-item svg {
+    position: absolute;
+    top: 10px;
+    right: 22px;
+  }
+  .left-list-container .left-list .active-list-item {
+    width: 280px;
+    height: 74px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 14px 0px 0px 0px;
+  }
+  .left-list-container .left-list .active-list-item .name-message {
+    margin: 0px 0px 0px 0px;
+  }
+  .left-list-container .left-list .active-list-item svg {
+    margin: 0px 12px 0px 0px;
+  }
+  .left-list-container .left-list .typing-list-item {
+    width: 280px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 14px 0px 0px 0px;
+  }
+  .left-list-container .left-list .typing-list-item img {
+    margin: 0px 0px 0px 6px;
+  }
+  .left-list-container .left-list .typing-list-item .name-message {
+    margin: 0px 0px 0px -60px;
+  }
+  .left-list-container .left-list .typing-list-item .time {
+    margin: -22px 8px 0px 0px;
+    color: #7b8793;
+    font-size: 12px;
+  }
+  .chat-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 40vw;
+    overflow-y: scroll;
+  }
+  .chat-section-container .my-reply img {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    outline: auto;
+    position: absolute;
+    right: 10px;
+    top: 4px;
+  }
+  .chat-section-container .my-reply .my-reply-small-top {
+    margin: 5px 58px 5px 805px;
+  }
+  .chat-section-container .my-reply .my-reply-small {
+    margin: 5px 58px 5px 805px;
+  }
+  .chat-section-container .my-reply .my-reply-large-top {
+    margin: 5px 58px 5px 710px;
+  }
+  .chat-section-container .my-reply .my-reply-large {
+    margin: 5px 58px 5px 710px;
+  }
+  .chat-section-container .my-reply span {
+    color: #afbbc6;
+    float: right;
+    margin: 0px 58px 0px 0px;
+    font-size: 10px;
+  }
+
+  .chat-section-container .my-reply .my-reply-medium {
+    margin: 5px 58px 5px 729px;
+  }
+  .chat-section-container .my-reply .my-reply-long {
+    margin: 5px 58px 5px 510px;
+  }
+  .chat-section-container .my-reply .my-reply-large-top {
+    margin: 5px 58px 5px 710px;
+  }
+  .chat-section-container .my-reply .my-reply-large {
+    margin: 5px 58px 5px 710px;
+  }
+  .chat-section-container .input-container input {
+    width: 922px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .side-bar-custom-style {
+    width: 28%;
+  }
+  .chat-custom-style {
+    width: 72%;
+  }
+  .chat-section-container {
+    height: 46vw;
+  }
+  .chat-section-container .my-reply {
+    position: relative;
+    margin: 0px 0px 0px -103px;
+  }
+  .chat-section-container .my-reply .my-reply-small-top {
+    margin: 5px 58px 5px 733px;
+  }
+  .chat-section-container .my-reply .my-reply-large-top {
+    margin: 5px 58px 5px 663px;
+  }
+  .chat-section-container .my-reply .my-reply-small {
+    margin: 5px 58px 5px 700px;
+  }
+  .chat-section-container .my-reply .my-reply-medium {
+    margin: 5px 58px 5px 632px;
+  }
+  .chat-section-container .my-reply .my-reply-large {
+    margin: 5px 58px 5px 560px;
+  }
+  .chat-section-container .input-container input {
+    width: 750px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .side-bar-custom-style {
+    width: 31%;
+  }
+  .chat-custom-style {
+    width: 69%;
+  }
+  .chat-section-container {
+    height: 49vw;
+  }
+  .chat-section-container .my-reply {
+    position: relative;
+    margin: 0px 0px 0px -175px;
+  }
+  .chat-section-container .my-reply .my-reply-small-top {
+    margin: 5px 58px 5px 700px;
+  }
+  .chat-section-container .my-reply .my-reply-large-top {
+    margin: 5px 58px 5px 632px;
+  }
+  .chat-section-container .my-reply .my-reply-small {
+    margin: 5px 58px 5px 700px;
+  }
+  .chat-section-container .my-reply .my-reply-medium {
+    margin: 5px 58px 5px 632px;
+  }
+  .chat-section-container .my-reply .my-reply-large {
+    margin: 5px 58px 5px 560px;
+  }
+  .chat-section-container .input-container input {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .side-bar-custom-style {
+    width: 32%;
+  }
+  .chat-custom-style {
+    width: 68%;
+  }
+  .chat-section-container {
+    height: 51vw;
+  }
+  .chat-section-container .my-reply {
+    position: relative;
+    margin: 0px 0px 0px -181px;
+  }
+  .chat-section-container .my-reply .my-reply-small-top {
+    margin: 5px 58px 5px 650px;
+  }
+  .chat-section-container .my-reply .my-reply-large-top {
+    margin: 5px 58px 5px 593px;
+  }
+  .chat-section-container .my-reply .my-reply-small {
+    margin: 5px 58px 5px 650px;
+  }
+  .chat-section-container .my-reply .my-reply-long {
+    margin: 5px 58px 5px 400px;
+  }
+  .chat-section-container .my-reply .my-reply-medium {
+    margin: 5px 58px 5px 600px;
+  }
+  .chat-section-container .my-reply .my-reply-large {
+    margin: 5px 58px 5px 510px;
+  }
+  .chat-section-container .input-container input {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .side-bar-custom-style {
+    width: 34%;
+  }
+  .chat-custom-style {
+    width: 66%;
+  }
+  .chat-section-container {
+    height: 52vw;
+  }
+  .chat-section-container .my-reply {
+    position: relative;
+    margin: 0px 0px 0px -250px;
+  }
+  /* .chat-section-container .my-reply .my-reply-small-top {
+    margin: 5px 58px 5px 650px;
+  }
+  .chat-section-container .my-reply .my-reply-large-top {
+    margin: 5px 58px 5px 593px;
+  }
+  .chat-section-container .my-reply .my-reply-small {
+    margin: 5px 58px 5px 650px;
+  }
+  .chat-section-container .my-reply .my-reply-long {
+    margin: 5px 58px 5px 400px;
+  }
+  .chat-section-container .my-reply .my-reply-medium {
+    margin: 5px 58px 5px 600px;
+  }
+  .chat-section-container .my-reply .my-reply-large {
+    margin: 5px 58px 5px 510px;
+  } */
+  .chat-section-container .input-container input {
+    width: 550px;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .side-bar-custom-style {
+    width: 36%;
+  }
+  .chat-custom-style {
+    width: 64%;
+  }
+  .chat-section-container {
+    height: 55vw;
+  }
+  .chat-section-container .my-reply {
+    position: relative;
+    margin: 0px 0px 0px -397px;
+  }
+  /* .chat-section-container .my-reply .my-reply-small-top {
+    margin: 5px 58px 5px 650px;
+  }
+  .chat-section-container .my-reply .my-reply-large-top {
+    margin: 5px 58px 5px 593px;
+  }
+  .chat-section-container .my-reply .my-reply-small {
+    margin: 5px 58px 5px 650px;
+  }
+  .chat-section-container .my-reply .my-reply-long {
+    margin: 5px 58px 5px 400px;
+  }
+  .chat-section-container .my-reply .my-reply-medium {
+    margin: 5px 58px 5px 600px;
+  }
+  .chat-section-container .my-reply .my-reply-large {
+    margin: 5px 58px 5px 510px;
+  } */
+  .chat-section-container .input-container input {
+    width: 550px;
+  }
+}
+/* Media Queries End */

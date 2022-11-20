@@ -19,7 +19,7 @@ const Messaging = () => {
       >
         <div className="container-fluid live-stream-container-fluid">
           <div className="row">
-            <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-5 col-sm-5">
+            <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-5 col-sm-5 side-bar-custom-style">
               <h1 className="chat-title">Chat</h1>
               <div className="my-profile-container">
                 <img src={MessagingImage2} alt="" />
@@ -201,7 +201,7 @@ const Messaging = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-xxl-9 col-xl-9 col-lg-8 col-md-7 col-sm-7">
+            <div className="col-xxl-9 col-xl-9 col-lg-8 col-md-7 col-sm-7 chat-custom-style">
               <div className="messages-top-header-right">
                 <div className="left-image-name">
                   <img src={MessagingImage3} alt="" width={55} height={55} />
@@ -277,8 +277,8 @@ const Messaging = () => {
 
                 <div className="my-reply">
                   <img src={MessagingImage2} alt="" />
-                  <p className="my-reply-small">Hello Franky!</p>
-                  <p className="my-reply-large">How are you doing today?</p>
+                  <p className="my-reply-small-top">Hello Franky!</p>
+                  <p className="my-reply-large-top">How are you doing today?</p>
                   <span>09:35</span>
                 </div>
 
