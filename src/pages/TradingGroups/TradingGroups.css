@@ -3,7 +3,7 @@ body {
 }
 
 .trading-groups-content-body {
-  margin: 80px 0px 0px 300px;
+  margin: 50px 0px 0px 230px;
   overflow-x: auto;
 }
 
@@ -225,45 +225,37 @@ body {
 /* Main Content End */
 
 /* Media Queries Start */
-@media only screen and (max-width: 1668px) {
+@media only screen and (max-width: 1669px) {
+  .trading-groups-top-header .trading-groups-top-header-left h1 {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "poppins";
+    font-weight: bold;
+    margin: 0px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button {
+    background-color: #0076ff;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    font-family: "poppins";
+    border-radius: 10px;
+    padding: 6px 12px 6px 12px;
+    margin: 0px 0px 0px 12px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button svg {
+    margin: 0px 8px 0px 0px;
+  }
   .trading-groups-container-fluid .row .trading-groups-component-container {
     background-color: #010a18;
     width: 260px;
     height: 329px;
     border-radius: 20px;
-    margin: 22px 0px 0px 5px;
+    margin: 35px 0px 0px 14px;
   }
 }
-@media only screen and (max-width: 1665px) {
-  .trading-groups-container-fluid .row .trading-groups-component-container {
-    background-color: #010a18;
-    width: 240px;
-    height: 329px;
-    border-radius: 20px;
-    margin: 22px 0px 0px 5px;
-  }
-  .trading-groups-container-fluid
-    .row
-    .trading-groups-component-container
-    .trading-groups-component-content
-    .top-image {
-    width: 224px;
-    height: 186px;
-    border-radius: 16px;
-    margin: 0px 0px 0px -2px;
-  }
 
-  .trading-groups-top-header .trading-groups-top-header-left button {
-    background-color: #0076ff;
-    color: #ffffff;
-    border: none;
-    font-size: 16px;
-    font-family: "poppins";
-    border-radius: 10px;
-    padding: 4px 8px 4px 8px;
-    margin: 0px 0px 0px 0px;
-  }
-
+@media only screen and (max-width: 1640px) {
   .trading-groups-top-header .trading-groups-top-header-left h1 {
     color: #ffffff;
     font-size: 18px;
@@ -271,11 +263,45 @@ body {
     font-weight: bold;
     margin: 0px;
   }
-  .button-group-container {
-    width: 464px;
-    height: 50px;
-    background-color: #020b19;
-    margin: 0px 0px 0px 160px;
+  .trading-groups-top-header .trading-groups-top-header-left button {
+    background-color: #0076ff;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    font-family: "poppins";
+    border-radius: 10px;
+    padding: 6px 8px 6px 8px;
+    margin: 0px 0px 0px 12px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button svg {
+    margin: 0px 4px 0px 0px;
+  }
+  .trading-groups-container-fluid .row .trading-groups-component-container {
+    background-color: #010a18;
+    width: 240px;
+    height: 312px;
+    border-radius: 20px;
+    margin: 35px 0px 0px 14px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .top-image {
+    width: 221px;
+    height: 186px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -2px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 8px 0px 0px 0px;
   }
 }
 

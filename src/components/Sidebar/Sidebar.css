@@ -1,13 +1,16 @@
 .sidebar-content-container {
-  width: 300px;
+  width: 230px;
   background-color: #020b19;
-  /* height: 100.5vh; */
+  height: 100vw;
   position: fixed;
-  top: 80px;
+  top: 60px;
   z-index: 1;
 }
 .sidebar-list-item {
   margin: 30px 0px 0px 0px;
+}
+.sidebar-list-item .active {
+  width: 230px;
 }
 .sidebar-list-item .sidebar-list-item-link {
   border-radius: 0px;
@@ -18,3 +21,51 @@
 .sidebar-list-item .sidebar-list-item-link .sidebar-list-item-text {
   margin: 0px 0px 0px 35px;
 }
+
+.upgrade-btn img {
+  width: 250px;
+  height: 250px;
+  margin: 0px 0px 0px -14px;
+}
+
+.google-play-app-store-btn {
+  display: flex;
+  align-items: center;
+}
+.google-play-app-store-btn .play-store-btn {
+  width: 118px;
+  height: 55px;
+}
+.google-play-app-store-btn .app-store-btn {
+  width: 114px;
+  height: 70px;
+}
+
+/* Media Queries Start */
+@media (max-height: 880px) {
+  .sidebar-list-item {
+    margin: 25px 0px 0px 0px;
+  }
+}
+@media (max-height: 840px) {
+  .sidebar-list-item {
+    margin: 20px 0px 0px 0px;
+  }
+}
+@media (max-height: 800px) {
+  .sidebar-list-item {
+    margin: 10px 0px 0px 0px;
+  }
+}
+@media (max-height: 740px) {
+  .sidebar-list-item {
+    margin: 5px 0px 0px 0px;
+  }
+}
+@media (max-height: 700px) {
+  .sidebar-list-item {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+/* Media Queries End */

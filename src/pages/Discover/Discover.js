@@ -18,9 +18,9 @@ const Discover = () => {
     <Fragment>
       <div
         id="content-body-height"
-        className="content-body live-stream-content-body"
+        className="content-body discover-content-body"
       >
-        <div className="container-fluid live-stream-container-fluid">
+        <div className="container-fluid discover-container-fluid">
           <div className="discover-top-header">
             <div className="stories-content-container">
               <img src={DiscoverImage7} alt="" />

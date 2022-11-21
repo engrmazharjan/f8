@@ -19,7 +19,7 @@ const Header = () => {
                 // className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
               >
                 <img
-                  style={{ width: "70px", height: "90px" }}
+                  style={{ width: "60px", height: "60px" }}
                   src={logo}
                   alt=""
                 />
@@ -29,7 +29,7 @@ const Header = () => {
               <Link to="/user/discover" className="nav-link px-2 text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="216"
+                  width="150"
                   height="59"
                   viewBox="0 0 216 59"
                 >

@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin: -38px 0px 0px 190px;
+  margin: 12px 0px 0px 190px;
 }
 .container-fluid .image-chat-container .left-image img {
   width: 550px;
@@ -289,3 +289,15 @@ body {
     justify-content: flex-end;
   }
 }
+
+/* Media Queries For Height Start */
+@media only screen and (max-height: 820px) {
+  .container-fluid .image-chat-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0px 0px 30px;
+  }
+}
+
+/* Media Queries For Height End */

@@ -2,7 +2,7 @@ body {
   background-color: #09192e;
 }
 .live-stream-content-body {
-  margin: 80px 0px 0px 300px;
+  margin: 50px 0px 0px 230px;
 }
 /* Top Header Style Start */
 /* Right Start */
@@ -72,7 +72,7 @@ body {
 
 .live-stream-container-fluid .row .live-stream-component-container {
   background-color: #010a18;
-  width: 180px;
+  width: 195px;
   height: 246px;
   border-radius: 20px;
   margin: 30px 0px 0px 36px;
@@ -90,7 +90,7 @@ body {
   .live-stream-component-container
   .live-stream-component-content
   .top-image {
-  width: 160px;
+  width: 175px;
   height: 120px;
   border-radius: 16px;
   margin: 0px 0px 0px -2px;
@@ -474,7 +474,7 @@ body {
 @media only screen and (max-width: 1306px) {
   .live-stream-container-fluid .row .live-stream-component-container {
     background-color: #010a18;
-    width: 120px;
+    width: 138px;
     height: 196px;
     border-radius: 20px;
     margin: 18px 0px 0px 8px;
@@ -484,7 +484,7 @@ body {
     .live-stream-component-container
     .live-stream-component-content
     .top-image {
-    width: 108px;
+    width: 124px;
     height: 108px;
     border-radius: 16px;
     margin: 0px 0px 0px -5px;
