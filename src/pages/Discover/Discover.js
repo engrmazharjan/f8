@@ -125,7 +125,7 @@ const Discover = () => {
               <img className="small-container" src={DiscoverImage6} alt="" />
               <span>James</span>
             </div>
-            <div className="stories-content-container">
+            {/* <div className="stories-content-container">
               <img src={DiscoverImage6} alt="" />
               <img className="small-container" src={DiscoverImage5} alt="" />
               <span>James</span>
@@ -134,7 +134,7 @@ const Discover = () => {
               <img src={DiscoverImage1} alt="" />
               <img className="small-container" src={DiscoverImage2} alt="" />
               <span>James</span>
-            </div>
+            </div> */}
             {/* <div className="stories-content-container">
               <img src={DiscoverImage2} alt="" />
               <img className="small-container" src={DiscoverImage1} alt="" />
@@ -204,7 +204,8 @@ const Discover = () => {
                     I am corporate Trader at Goliath National Bank. I grown up
                     in Minnesota. I love and care and confident and extremely
                     emotional, which I often gets teased for by the gang. I am
-                    very passionate
+                    very passionate about what I do, and care deeply for my
+                    family and friends.
                   </p>
                 </div>
               </div>

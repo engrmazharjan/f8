@@ -213,7 +213,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  height: 37vw;
+  height: 35vw;
   overflow-y: scroll;
 }
 
@@ -270,7 +270,7 @@
 }
 
 .chat-section-container .my-reply .my-reply-large-top {
-  margin: 5px 65px 5px 957px;
+  margin: 5px 65px 5px 850px;
 }
 .chat-section-container .my-reply .my-reply-large {
   margin: 5px 65px 5px 850px;
@@ -281,7 +281,7 @@
 }
 
 .chat-section-container .my-reply .my-reply-small-top {
-  margin: 5px 65px 5px 1039px;
+  margin: 5px 65px 5px 985px;
 }
 .chat-section-container .my-reply .my-reply-small {
   margin: 5px 65px 5px 985px;
@@ -342,10 +342,6 @@
 
 /* Media Queries Start */
 @media only screen and (max-width: 1669px) {
-  .chat-section-container .typing {
-    padding: 0px 0px 0px 40px;
-    margin: 0px 0px -7px 0px;
-  }
   .chat-title {
     width: 300px;
   }
@@ -365,7 +361,7 @@
   .left-list-container .left-list .input-list-item svg {
     position: absolute;
     top: 10px;
-    left: 245px;
+    right: 22px;
   }
   .left-list-container .left-list .active-list-item {
     width: 280px;
@@ -409,8 +405,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    /* height: 43vw; */
-    height: calc(100% - 132px);
+    height: 40vw;
     overflow-y: scroll;
   }
   .chat-section-container .my-reply img {
@@ -423,7 +418,7 @@
     top: 4px;
   }
   .chat-section-container .my-reply .my-reply-small-top {
-    margin: 5px 58px 5px 858px;
+    margin: 5px 58px 5px 805px;
   }
   .chat-section-container .my-reply .my-reply-small {
     margin: 5px 58px 5px 805px;
@@ -520,7 +515,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    /* height: 43vw; */
+    height: 40vw;
     overflow-y: scroll;
   }
   .chat-section-container .my-reply img {
@@ -533,346 +528,10 @@
     top: 4px;
   }
   .chat-section-container .my-reply .my-reply-small-top {
-    margin: 5px 58px 5px 857px;
+    margin: 5px 58px 5px 805px;
   }
   .chat-section-container .my-reply .my-reply-small {
     margin: 5px 58px 5px 805px;
-  }
-  .chat-section-container .my-reply .my-reply-large-top {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .my-reply .my-reply-large {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .my-reply span {
-    color: #afbbc6;
-    float: right;
-    margin: 0px 58px 0px 0px;
-    font-size: 10px;
-  }
-
-  .chat-section-container .my-reply .my-reply-medium {
-    margin: 5px 58px 5px 729px;
-  }
-  .chat-section-container .my-reply .my-reply-long {
-    margin: 5px 58px 5px 510px;
-  }
-  .chat-section-container .my-reply .my-reply-large-top {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .my-reply .my-reply-large {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .input-container input {
-    width: 922px;
-  }
-}
-
-@media only screen and (max-width: 1617px) {
-  .chat-title {
-    width: 300px;
-  }
-  .my-profile-container .details h3 {
-    color: #b7bbbe;
-    font-size: 14px;
-    font-family: "poppins";
-  }
-  .left-list-container .left-list li input {
-    background-color: #030c1a;
-    color: #ffffff;
-    border: none;
-    width: 280px;
-    height: 42px;
-    border-radius: 10px;
-  }
-  .left-list-container .left-list .input-list-item svg {
-    position: absolute;
-    top: 10px;
-    right: 22px;
-  }
-  .left-list-container .left-list .active-list-item {
-    width: 280px;
-    height: 74px;
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px;
-    margin: 14px 0px 0px 0px;
-  }
-  .left-list-container .left-list .active-list-item .name-message {
-    margin: 0px 0px 0px 0px;
-  }
-  .left-list-container .left-list .active-list-item svg {
-    margin: 0px 12px 0px 0px;
-  }
-  .left-list-container .left-list .typing-list-item {
-    width: 280px;
-    height: 74px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px;
-    margin: 14px 0px 0px 0px;
-  }
-  .left-list-container .left-list .typing-list-item img {
-    margin: 0px 0px 0px 6px;
-  }
-  .left-list-container .left-list .typing-list-item .name-message {
-    margin: 0px 0px 0px -60px;
-  }
-  .left-list-container .left-list .typing-list-item .time {
-    margin: -22px 8px 0px 0px;
-    color: #7b8793;
-    font-size: 12px;
-  }
-  .chat-section-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    /* height: 43vw; */
-    height: calc(100% - 132px);
-    overflow-y: scroll;
-  }
-  .chat-section-container .my-reply img {
-    width: 43px;
-    height: 43px;
-    border-radius: 50%;
-    outline: auto;
-    position: absolute;
-    right: 10px;
-    top: 4px;
-  }
-  .chat-section-container .my-reply .my-reply-small-top {
-    margin: 5px 58px 5px 819px;
-  }
-  .chat-section-container .my-reply .my-reply-small {
-    margin: 5px 58px 5px 805px;
-  }
-  .chat-section-container .my-reply .my-reply-large-top {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .my-reply .my-reply-large {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .my-reply span {
-    color: #afbbc6;
-    float: right;
-    margin: 0px 58px 0px 0px;
-    font-size: 10px;
-  }
-
-  .chat-section-container .my-reply .my-reply-medium {
-    margin: 5px 58px 5px 729px;
-  }
-  .chat-section-container .my-reply .my-reply-long {
-    margin: 5px 58px 5px 510px;
-  }
-  .chat-section-container .my-reply .my-reply-large-top {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .my-reply .my-reply-large {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .input-container input {
-    width: 922px;
-  }
-}
-
-@media only screen and (max-width: 1566px) {
-  .chat-title {
-    width: 300px;
-  }
-  .my-profile-container .details h3 {
-    color: #b7bbbe;
-    font-size: 14px;
-    font-family: "poppins";
-  }
-  .left-list-container .left-list li input {
-    background-color: #030c1a;
-    color: #ffffff;
-    border: none;
-    width: 280px;
-    height: 42px;
-    border-radius: 10px;
-  }
-  .left-list-container .left-list .input-list-item svg {
-    position: absolute;
-    top: 10px;
-    right: 22px;
-  }
-  .left-list-container .left-list .active-list-item {
-    width: 280px;
-    height: 74px;
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px;
-    margin: 14px 0px 0px 0px;
-  }
-  .left-list-container .left-list .active-list-item .name-message {
-    margin: 0px 0px 0px 0px;
-  }
-  .left-list-container .left-list .active-list-item svg {
-    margin: 0px 12px 0px 0px;
-  }
-  .left-list-container .left-list .typing-list-item {
-    width: 280px;
-    height: 74px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px;
-    margin: 14px 0px 0px 0px;
-  }
-  .left-list-container .left-list .typing-list-item img {
-    margin: 0px 0px 0px 6px;
-  }
-  .left-list-container .left-list .typing-list-item .name-message {
-    margin: 0px 0px 0px -60px;
-  }
-  .left-list-container .left-list .typing-list-item .time {
-    margin: -22px 8px 0px 0px;
-    color: #7b8793;
-    font-size: 12px;
-  }
-  .chat-section-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    /* height: 40vw; */
-    height: calc(100% - 132px);
-    overflow-y: scroll;
-  }
-  .chat-section-container .my-reply img {
-    width: 43px;
-    height: 43px;
-    border-radius: 50%;
-    outline: auto;
-    position: absolute;
-    right: 10px;
-    top: 4px;
-  }
-  .chat-section-container .my-reply .my-reply-small-top {
-    margin: 5px 58px 5px 781px;
-  }
-  .chat-section-container .my-reply .my-reply-small {
-    margin: 5px 58px 5px 805px;
-  }
-  .chat-section-container .my-reply .my-reply-large-top {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .my-reply .my-reply-large {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .my-reply span {
-    color: #afbbc6;
-    float: right;
-    margin: 0px 58px 0px 0px;
-    font-size: 10px;
-  }
-
-  .chat-section-container .my-reply .my-reply-medium {
-    margin: 5px 58px 5px 729px;
-  }
-  .chat-section-container .my-reply .my-reply-long {
-    margin: 5px 58px 5px 510px;
-  }
-  .chat-section-container .my-reply .my-reply-large-top {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .my-reply .my-reply-large {
-    margin: 5px 58px 5px 710px;
-  }
-  .chat-section-container .input-container input {
-    width: 922px;
-  }
-}
-
-@media only screen and (max-width: 1549px) {
-  .chat-title {
-    width: 300px;
-  }
-  .my-profile-container .details h3 {
-    color: #b7bbbe;
-    font-size: 14px;
-    font-family: "poppins";
-  }
-  .left-list-container .left-list li input {
-    background-color: #030c1a;
-    color: #ffffff;
-    border: none;
-    width: 280px;
-    height: 42px;
-    border-radius: 10px;
-  }
-  .left-list-container .left-list .input-list-item svg {
-    position: absolute;
-    top: 10px;
-    right: 22px;
-  }
-  .left-list-container .left-list .active-list-item {
-    width: 280px;
-    height: 74px;
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px;
-    margin: 14px 0px 0px 0px;
-  }
-  .left-list-container .left-list .active-list-item .name-message {
-    margin: 0px 0px 0px 0px;
-  }
-  .left-list-container .left-list .active-list-item svg {
-    margin: 0px 12px 0px 0px;
-  }
-  .left-list-container .left-list .typing-list-item {
-    width: 280px;
-    height: 74px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px;
-    margin: 14px 0px 0px 0px;
-  }
-  .left-list-container .left-list .typing-list-item img {
-    margin: 0px 0px 0px 6px;
-  }
-  .left-list-container .left-list .typing-list-item .name-message {
-    margin: 0px 0px 0px -60px;
-  }
-  .left-list-container .left-list .typing-list-item .time {
-    margin: -22px 8px 0px 0px;
-    color: #7b8793;
-    font-size: 12px;
-  }
-  .chat-section-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    /* height: 40vw; */
-    height: calc(100% - 132px);
-    overflow-y: scroll;
-  }
-  .chat-section-container .my-reply img {
-    width: 43px;
-    height: 43px;
-    border-radius: 50%;
-    outline: auto;
-    position: absolute;
-    right: 10px;
-    top: 4px;
-  }
-  .chat-section-container .my-reply .my-reply-small-top {
-    margin: 5px 58px 5px 708px;
-  }
-  .chat-section-container .my-reply .my-reply-small {
-    margin: 5px 58px 5px 730px;
   }
   .chat-section-container .my-reply .my-reply-large-top {
     margin: 5px 58px 5px 710px;
@@ -912,8 +571,7 @@
     width: 72%;
   }
   .chat-section-container {
-    /* height: 46vw; */
-    height: calc(100% - 132px);
+    height: 46vw;
   }
   .chat-section-container .my-reply {
     position: relative;
@@ -946,8 +604,7 @@
     width: 69%;
   }
   .chat-section-container {
-    /* height: 49vw; */
-    height: calc(100% - 132px);
+    height: 49vw;
   }
   .chat-section-container .my-reply {
     position: relative;
@@ -981,8 +638,7 @@
     width: 68%;
   }
   .chat-section-container {
-    /* height: 51vw; */
-    height: calc(100% - 132px);
+    height: 51vw;
   }
   .chat-section-container .my-reply {
     position: relative;
@@ -1018,8 +674,7 @@
     width: 66%;
   }
   .chat-section-container {
-    /* height: 52vw; */
-    height: calc(100% - 132px);
+    height: 52vw;
   }
   .chat-section-container .my-reply {
     position: relative;
@@ -1055,8 +710,7 @@
     width: 64%;
   }
   .chat-section-container {
-    /* height: 55vw; */
-    height: calc(100% - 132px);
+    height: 55vw;
   }
   .chat-section-container .my-reply {
     position: relative;

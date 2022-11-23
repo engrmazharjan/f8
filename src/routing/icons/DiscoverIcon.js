@@ -3,7 +3,7 @@ import React from "react";
 const DiscoverIcon = () => {
   return (
     <svg
-      width="24"
+      width="28"
       height="23"
       viewBox="0 0 24 23"
       fill="none"

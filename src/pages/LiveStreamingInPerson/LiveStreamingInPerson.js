@@ -95,11 +95,13 @@ const LiveStreamingInPerson = () => {
               <div className="chat-container">
                 <div className="single-chat">
                   <p className="person-name">Aqib Iqbal</p>
-                  <p>Hey Mazhar, how are you. Is client's project ready???</p>
+                  <p className="message">
+                    Hey Mazhar, how are you. Is client's project ready???
+                  </p>
                 </div>
                 <div className="second-single-chat">
                   <p className="person-name">Mazhar Jan</p>
-                  <p>
+                  <p className="message">
                     I'm doing well. Yes it's ready I've deployed the build, I'll
                     share the link with you.
                   </p>

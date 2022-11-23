@@ -3,7 +3,7 @@ import React from "react";
 const StatisticsActiveIcon = () => {
   return (
     <svg
-      width="27"
+      width="30"
       height="27"
       viewBox="0 0 27 27"
       fill="none"

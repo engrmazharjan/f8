@@ -42,6 +42,26 @@
 }
 
 /* Media Queries Start */
+@media (max-height: 1380px) {
+  .sidebar-content-container {
+    width: 256px;
+    background-color: #020b19;
+    height: 100vw;
+    position: fixed;
+    top: 60px;
+    z-index: 1;
+  }
+  .sidebar-list-item {
+    margin: 25px 0px 0px 0px;
+  }
+  .sidebar-list-item .active {
+    width: 256px;
+  }
+  .sidebar-list-item .sidebar-list-item-link .sidebar-list-item-text {
+    margin: 0px 0px 0px 35px;
+    font-size: 11px;
+  }
+}
 @media (max-height: 880px) {
   .sidebar-list-item {
     margin: 25px 0px 0px 0px;
