@@ -121,19 +121,27 @@ const Profile = () => {
               </div>
 
               <span className="profile-first-input-span">
-                <input type="text" placeholder="Ola" />
+                <label htmlFor="first-name">First Name</label>
+                <input type="text" name="first-name" placeholder="Ola" />
               </span>
 
               <span>
-                <input type="text" placeholder="Boluwatife" />
+                <label htmlFor="last-name">Last Name</label>
+                <input type="text" name="last-name" placeholder="Boluwatife" />
               </span>
 
               <span>
-                <input type="email" placeholder="Olaboluwatofezzy@ymail.com" />
+                <label htmlFor="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Olaboluwatofezzy@ymail.com"
+                />
               </span>
 
               <span>
-                <input type="text" placeholder="Trader" />
+                <label htmlFor="account-type">Account Type</label>
+                <input type="text" name="account-type" placeholder="Trader" />
               </span>
 
               <span>
