@@ -305,7 +305,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1590px) {
+/* @media only screen and (max-width: 1590px) {
   .trading-groups-top-header {
     display: flex;
     align-items: center;
@@ -354,9 +354,241 @@ body {
     background-color: #020b19;
     margin: 0px 0px 0px 160px;
   }
+} */
+
+@media only screen and (max-width: 1590px) {
+  .trading-groups-content-body {
+    margin: 50px 0px 0px 256px;
+    overflow-x: auto;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 440px;
+  }
+  .trading-groups-top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 30px 0px 0px;
+  }
+  .trading-groups-container-fluid .row .trading-groups-component-container {
+    background-color: #010a18;
+    border-radius: 20px;
+    height: 216px;
+    margin: 22px 0 0 36px;
+    width: 171px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .top-image {
+    width: 157px;
+    height: 122px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -4px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .name {
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "poppins";
+    margin: 5px 0px 0px 0px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 8px;
+    font-family: "poppins";
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    button {
+    background-color: #3cd561;
+    color: #09192e;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    p {
+    color: #0076ff;
+    font-family: "poppins";
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left button {
+    background-color: #0076ff;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    font-family: "poppins";
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 0px 0px 4px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button svg {
+    margin: 0px 4px 0px 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left h1 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: bold;
+    margin: 0px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 0px 0px 160px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 55px 0px 160px;
+  }
 }
 
-@media only screen and (max-width: 1530px) {
+@media only screen and (max-width: 1538px) {
+  .trading-groups-content-body {
+    margin: 50px 0px 0px 256px;
+    overflow-x: auto;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 440px;
+  }
+  .trading-groups-top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 30px 0px 0px;
+  }
+  .trading-groups-container-fluid .row .trading-groups-component-container {
+    background-color: #010a18;
+    width: 171px;
+    height: 216px;
+    border-radius: 20px;
+    margin: 22px 0px 0px 28px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .top-image {
+    width: 157px;
+    height: 122px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -4px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .name {
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "poppins";
+    margin: 5px 0px 0px 0px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 8px;
+    font-family: "poppins";
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    button {
+    background-color: #3cd561;
+    color: #09192e;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    p {
+    color: #0076ff;
+    font-family: "poppins";
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left button {
+    background-color: #0076ff;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    font-family: "poppins";
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 0px 0px 4px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button svg {
+    margin: 0px 4px 0px 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left h1 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: bold;
+    margin: 0px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 0px 0px 160px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 55px 0px 160px;
+  }
+}
+
+/* @media only screen and (max-width: 1530px) {
   .trading-groups-top-header .trading-groups-top-header-left {
     display: flex;
     align-items: center;
@@ -411,9 +643,241 @@ body {
     background-color: #020b19;
     margin: 0px 0px 0px 160px;
   }
+} */
+
+@media only screen and (max-width: 1530px) {
+  .trading-groups-content-body {
+    margin: 50px 0px 0px 256px;
+    overflow-x: auto;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 440px;
+  }
+  .trading-groups-top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 30px 0px 0px;
+  }
+  .trading-groups-container-fluid .row .trading-groups-component-container {
+    background-color: #010a18;
+    width: 171px;
+    height: 216px;
+    border-radius: 20px;
+    margin: 22px 0px 0px 24px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .top-image {
+    width: 157px;
+    height: 122px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -4px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .name {
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "poppins";
+    margin: 5px 0px 0px 0px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 8px;
+    font-family: "poppins";
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    button {
+    background-color: #3cd561;
+    color: #09192e;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    p {
+    color: #0076ff;
+    font-family: "poppins";
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left button {
+    background-color: #0076ff;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    font-family: "poppins";
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 0px 0px 4px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button svg {
+    margin: 0px 4px 0px 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left h1 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: bold;
+    margin: 0px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 0px 0px 160px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 55px 0px 160px;
+  }
 }
 
-@media only screen and (max-width: 1430px) {
+@media only screen and (max-width: 1466px) {
+  .trading-groups-content-body {
+    margin: 50px 0px 0px 256px;
+    overflow-x: auto;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 440px;
+  }
+  .trading-groups-top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 30px 0px 0px;
+  }
+  .trading-groups-container-fluid .row .trading-groups-component-container {
+    background-color: #010a18;
+    width: 171px;
+    height: 216px;
+    border-radius: 20px;
+    margin: 22px 0px 0px 16px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .top-image {
+    width: 157px;
+    height: 122px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -4px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .name {
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "poppins";
+    margin: 5px 0px 0px 0px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 8px;
+    font-family: "poppins";
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    button {
+    background-color: #3cd561;
+    color: #09192e;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    p {
+    color: #0076ff;
+    font-family: "poppins";
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left button {
+    background-color: #0076ff;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    font-family: "poppins";
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 0px 0px 4px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button svg {
+    margin: 0px 4px 0px 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left h1 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: bold;
+    margin: 0px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 0px 0px 160px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 55px 0px 160px;
+  }
+}
+
+/* @media only screen and (max-width: 1430px) {
   .trading-groups-top-header .trading-groups-top-header-left {
     display: flex;
     align-items: center;
@@ -486,8 +950,123 @@ body {
     background-color: #020b19;
     margin: 0px 55px 0px 160px;
   }
-}
+} */
 
+@media only screen and (max-width: 1430px) {
+  .trading-groups-content-body {
+    margin: 50px 0px 0px 256px;
+    overflow-x: auto;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 440px;
+  }
+  .trading-groups-top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 30px 0px 0px;
+  }
+  .trading-groups-container-fluid .row .trading-groups-component-container {
+    background-color: #010a18;
+    width: 171px;
+    height: 216px;
+    border-radius: 20px;
+    margin: 22px 0px 0px 36px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .top-image {
+    width: 157px;
+    height: 122px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -4px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .name {
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "poppins";
+    margin: 5px 0px 0px 0px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 8px;
+    font-family: "poppins";
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    button {
+    background-color: #3cd561;
+    color: #09192e;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    p {
+    color: #0076ff;
+    font-family: "poppins";
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left button {
+    background-color: #0076ff;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    font-family: "poppins";
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 0px 0px 4px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button svg {
+    margin: 0px 4px 0px 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left h1 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: bold;
+    margin: 0px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 0px 0px 160px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 55px 0px 160px;
+  }
+}
 @media only screen and (max-width: 1380px) {
   .trading-groups-content-body {
     margin: 50px 0px 0px 256px;
@@ -604,7 +1183,239 @@ body {
   }
 }
 
-@media only screen and (max-width: 1330px) {
+@media only screen and (max-width: 1331px) {
+  .trading-groups-content-body {
+    margin: 50px 0px 0px 256px;
+    overflow-x: auto;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 440px;
+  }
+  .trading-groups-top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 30px 0px 0px;
+  }
+  .trading-groups-container-fluid .row .trading-groups-component-container {
+    background-color: #010a18;
+    width: 171px;
+    height: 216px;
+    border-radius: 20px;
+    margin: 22px 0px 0px 28px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .top-image {
+    width: 157px;
+    height: 122px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -4px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .name {
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "poppins";
+    margin: 5px 0px 0px 0px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 8px;
+    font-family: "poppins";
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    button {
+    background-color: #3cd561;
+    color: #09192e;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    p {
+    color: #0076ff;
+    font-family: "poppins";
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left button {
+    background-color: #0076ff;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    font-family: "poppins";
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 0px 0px 4px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button svg {
+    margin: 0px 4px 0px 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left h1 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: bold;
+    margin: 0px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 0px 0px 160px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 55px 0px 160px;
+  }
+}
+
+@media only screen and (max-width: 1291px) {
+  .trading-groups-content-body {
+    margin: 50px 0px 0px 256px;
+    overflow-x: auto;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 440px;
+  }
+  .trading-groups-top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 30px 0px 0px;
+  }
+  .trading-groups-container-fluid .row .trading-groups-component-container {
+    background-color: #010a18;
+    width: 171px;
+    height: 216px;
+    border-radius: 20px;
+    margin: 22px 0px 0px 18px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .top-image {
+    width: 157px;
+    height: 122px;
+    border-radius: 16px;
+    margin: 0px 0px 0px -4px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .name {
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "poppins";
+    margin: 5px 0px 0px 0px;
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    span {
+    color: rgba(217, 216, 216, 0.4);
+    font-size: 8px;
+    font-family: "poppins";
+  }
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    button {
+    background-color: #3cd561;
+    color: #09192e;
+    font-family: "poppins";
+    padding: 2px 18px 2px 18px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .trading-groups-container-fluid
+    .row
+    .trading-groups-component-container
+    .trading-groups-component-content
+    .cost-button-container
+    p {
+    color: #0076ff;
+    font-family: "poppins";
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left button {
+    background-color: #0076ff;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    font-family: "poppins";
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 0px 0px 4px;
+  }
+  .trading-groups-top-header .trading-groups-top-header-left button svg {
+    margin: 0px 4px 0px 0px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .trading-groups-top-header .trading-groups-top-header-left h1 {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: bold;
+    margin: 0px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 0px 0px 160px;
+  }
+  .button-group-container {
+    width: 464px;
+    height: 50px;
+    background-color: #020b19;
+    margin: 0px 55px 0px 160px;
+  }
+}
+
+/* @media only screen and (max-width: 1330px) {
   .trading-groups-top-header .trading-groups-top-header-left {
     display: flex;
     align-items: center;
@@ -680,7 +1491,7 @@ body {
     background-color: #020b19;
     margin: 0px 55px 0px 160px;
   }
-}
+} */
 
 @media only screen and (max-width: 1280px) {
   .trading-groups-content-body {
@@ -798,125 +1609,49 @@ body {
   }
 }
 
-@media only screen and (max-width: 1272px) {
+@media only screen and (max-width: 1221px) {
+  .trading-groups-content-body {
+    margin: 50px 0px 0px 256px;
+    overflow-x: auto;
+  }
   .trading-groups-top-header .trading-groups-top-header-left {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 450px;
+    width: 440px;
   }
   .trading-groups-top-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 0px 0px 0px;
+    margin: 30px 30px 0px 0px;
   }
   .trading-groups-container-fluid .row .trading-groups-component-container {
     background-color: #010a18;
-    width: 163px;
-    height: 280px;
+    width: 171px;
+    height: 216px;
     border-radius: 20px;
-    margin: 22px 0px 0px 14px;
+    margin: 22px 0px 0px 8px;
   }
   .trading-groups-container-fluid
     .row
     .trading-groups-component-container
     .trading-groups-component-content
     .top-image {
-    width: 142px;
-    height: 140px;
+    width: 157px;
+    height: 122px;
     border-radius: 16px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px -4px;
   }
-
-  .trading-groups-container-fluid
-    .row
-    .trading-groups-component-container
-    .trading-groups-component-content
-    .cost-button-container
-    p {
-    color: #0076ff;
-    font-family: "poppins";
-    font-size: 9px;
-    font-weight: 500;
-  }
-
-  .trading-groups-top-header .trading-groups-top-header-left button {
-    background-color: #0076ff;
-    color: #ffffff;
-    border: none;
-    font-size: 12px;
-    font-family: "poppins";
-    border-radius: 10px;
-    padding: 4px 4px 4px 4px;
-    margin: 0px 0px 0px 0px;
-  }
-  .trading-groups-top-header .trading-groups-top-header-left button svg {
-    margin: 0px 4px 0px 0px;
-  }
-
-  .trading-groups-top-header .trading-groups-top-header-left h1 {
-    color: #ffffff;
-    font-size: 10px;
-    font-family: "poppins";
-    font-weight: bold;
-    margin: 0px;
-  }
-  .button-group-container {
-    width: 464px;
-    height: 50px;
-    background-color: #020b19;
-    margin: 0px 0px 0px 160px;
-  }
-
-  .button-group-container {
-    width: 464px;
-    height: 50px;
-    background-color: #020b19;
-    margin: 0px 55px 0px 160px;
-  }
-}
-
-@media only screen and (max-width: 1225px) {
-  .trading-groups-top-header .trading-groups-top-header-left {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 450px;
-  }
-  .trading-groups-top-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 0px 0px 0px;
-  }
-  .trading-groups-container-fluid .row .trading-groups-component-container {
-    background-color: #010a18;
-    width: 150px;
-    height: 260px;
-    border-radius: 20px;
-    margin: 22px 0px 0px 14px;
-  }
-  .trading-groups-container-fluid
-    .row
-    .trading-groups-component-container
-    .trading-groups-component-content
-    .top-image {
-    width: 132px;
-    height: 130px;
-    border-radius: 16px;
-    margin: 0px 0px 0px 0px;
-  }
-
   .trading-groups-container-fluid
     .row
     .trading-groups-component-container
     .trading-groups-component-content
     .name {
     color: #ffffff;
-    font-size: 12px;
+    font-size: 10px;
     font-family: "poppins";
-    margin: 18px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
   }
   .trading-groups-container-fluid
     .row
@@ -924,7 +1659,7 @@ body {
     .trading-groups-component-content
     span {
     color: rgba(217, 216, 216, 0.4);
-    font-size: 10px;
+    font-size: 8px;
     font-family: "poppins";
   }
   .trading-groups-container-fluid
@@ -936,9 +1671,9 @@ body {
     background-color: #3cd561;
     color: #09192e;
     font-family: "poppins";
-    padding: 2px 14px 2px 14px;
+    padding: 2px 18px 2px 18px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .trading-groups-container-fluid
@@ -949,115 +1684,7 @@ body {
     p {
     color: #0076ff;
     font-family: "poppins";
-    font-size: 9px;
-    font-weight: 500;
-  }
-
-  .trading-groups-top-header .trading-groups-top-header-left button {
-    background-color: #0076ff;
-    color: #ffffff;
-    border: none;
-    font-size: 12px;
-    font-family: "poppins";
-    border-radius: 10px;
-    padding: 4px 4px 4px 4px;
-    margin: 0px 0px 0px 0px;
-  }
-  .trading-groups-top-header .trading-groups-top-header-left button svg {
-    margin: 0px 4px 0px 0px;
-  }
-
-  .trading-groups-top-header .trading-groups-top-header-left h1 {
-    color: #ffffff;
-    font-size: 10px;
-    font-family: "poppins";
-    font-weight: bold;
-    margin: 0px;
-  }
-  .button-group-container {
-    width: 464px;
-    height: 50px;
-    background-color: #020b19;
-    margin: 0px 0px 0px 160px;
-  }
-
-  .button-group-container {
-    width: 464px;
-    height: 50px;
-    background-color: #020b19;
-    margin: 0px 55px 0px 160px;
-  }
-}
-
-@media only screen and (max-width: 1160px) {
-  .trading-groups-top-header .trading-groups-top-header-left {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 450px;
-  }
-  .trading-groups-top-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 30px 0px 0px 0px;
-  }
-  .trading-groups-container-fluid .row .trading-groups-component-container {
-    background-color: #010a18;
-    width: 136px;
-    height: 231px;
-    border-radius: 20px;
-    margin: 22px 0px 0px 14px;
-  }
-  .trading-groups-container-fluid
-    .row
-    .trading-groups-component-container
-    .trading-groups-component-content
-    .top-image {
-    width: 122px;
-    height: 122px;
-    border-radius: 16px;
-    margin: 0px 0px 0px -5px;
-  }
-
-  .trading-groups-container-fluid
-    .row
-    .trading-groups-component-container
-    .trading-groups-component-content
-    .name {
-    color: #ffffff;
     font-size: 11px;
-    font-family: "poppins";
-    margin: 18px 0px 0px 0px;
-  }
-  .trading-groups-container-fluid
-    .row
-    .trading-groups-component-container
-    .trading-groups-component-content
-    span {
-    color: rgba(217, 216, 216, 0.4);
-    font-size: 9px;
-    font-family: "poppins";
-  }
-  .trading-groups-container-fluid
-    .row
-    .trading-groups-component-container
-    .trading-groups-component-content
-    .cost-button-container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    margin: 4px 0px 0px 0px;
-  }
-  .trading-groups-container-fluid
-    .row
-    .trading-groups-component-container
-    .trading-groups-component-content
-    .cost-button-container
-    p {
-    color: #0076ff;
-    font-family: "poppins";
-    font-size: 9px;
     font-weight: 500;
   }
 
@@ -1068,16 +1695,18 @@ body {
     font-size: 12px;
     font-family: "poppins";
     border-radius: 10px;
-    padding: 4px 4px 4px 4px;
-    margin: 0px 0px 0px 0px;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 0px 0px 4px;
   }
   .trading-groups-top-header .trading-groups-top-header-left button svg {
     margin: 0px 4px 0px 0px;
+    width: 20px;
+    height: 20px;
   }
 
   .trading-groups-top-header .trading-groups-top-header-left h1 {
     color: #ffffff;
-    font-size: 10px;
+    font-size: 14px;
     font-family: "poppins";
     font-weight: bold;
     margin: 0px;
@@ -1088,24 +1717,11 @@ body {
     background-color: #020b19;
     margin: 0px 0px 0px 160px;
   }
-
   .button-group-container {
     width: 464px;
     height: 50px;
     background-color: #020b19;
     margin: 0px 55px 0px 160px;
   }
-}
-@media only screen and (max-width: 1200px) {
-}
-@media only screen and (max-width: 1083px) {
-}
-@media only screen and (max-width: 1063px) {
-}
-
-@media only screen and (max-width: 1017px) {
-}
-
-@media only screen and (max-width: 991px) {
 }
 /* Media Queries End */

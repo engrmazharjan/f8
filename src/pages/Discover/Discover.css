@@ -1,5 +1,5 @@
 .discover-content-body {
-  margin: 50px 0px 0px 230px;
+  margin: 50px 0 0 256px;
 }
 /* Top Header Start */
 .discover-top-header {
@@ -236,7 +236,7 @@
   width: 278px;
   height: 329px;
   border-radius: 20px;
-  margin: 20px 50px 12px 0px;
+  margin: 20px 40px 12px 0px;
 }
 .random-user-section .row .random-user-container .random-user-content img {
   width: 256px;
